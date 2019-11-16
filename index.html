@@ -1,0 +1,275 @@
+<!doctype html><meta charset=utf-8>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152598381-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152598381-2');
+</script>
+</head>
+
+<title>A Low Cost Multi-Camera Array for Panoramic Light Field Video Capture</title>
+
+<style>
+    body {
+      font-family: Roboto, "Roboto", sans-serif;
+      background: #F0F0F0;
+      color: #696969;
+      padding: 0px 40px 40px 40px;
+    }
+    h1 { 
+        display: block;
+        font-size: 2em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: normal;
+        color: #000;
+        }
+    h2 { 
+        display: block;
+        font-size: 1.5em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: normal;
+        color: #000;
+        }
+    h3 { 
+        display: block;
+        font-size: 1em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: normal;
+        }
+    h4 { 
+        display: block;
+        font-size: 1.4em;
+        margin-top: 0.0em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: normal;
+        color: #000;
+        }
+    img {
+      margin: 0px 10px 10px 0;
+    }
+    .img {
+      box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, .15);
+      margin: 0px 10px 10px 0;
+    }
+    .logos {
+      margin: 0px 10px 10px 0;
+    }
+    .ib {
+      display: inline-block;
+      margin: 00px 20px 20px 0px;
+    }
+    .footer {
+	margin: 20px 0px 50px 0px;
+    width: 100%;
+    height: 100px;
+    float: center;
+	position: relative;
+    min-width: 800px;
+    }
+    .footerG {
+	margin: 20px 0px 0px 0px;
+    width: 200px;
+    height: 100px;
+    float: left;
+	position: relative;
+    }
+    .footerD {
+	margin: 20px 100px 0px 0px;
+    width: 300px;
+    height: 100px;
+    float: right;
+	position: relative;
+    }
+    .main {
+	margin: 20px 80px 20px 0px;
+    width: 100%;
+    float: left;
+	position: relative;
+    }
+    .superhero {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    min-width: 800px;
+    }
+    .title {
+	margin: 50px 0px 0px 0px;
+    width: 400px;
+    height: 600px;
+    float: left;
+	position: relative;
+    }
+    .video-thumb {
+    margin: 150px 0px 0px 0px;
+    width: 580px;
+    height: 500px;
+    float: right;
+    position: relative;
+    }
+    .poster {
+	margin: 120px 40px 0px 0px;
+    width: 471px;
+    height: 492px;
+    float: right;
+	position: relative;
+    }
+    .posterPaper {
+	margin: 0px 100px 0px 0px;
+    width: 530px;
+    height:3500px;
+    float: right;
+	position: relative;
+    }
+    h1.name {
+	font-size: 40px;
+	font-weight: 300;
+    margin-bottom: 10px;
+	display: inline-block;
+    }
+    .email {
+	display: block;
+	font-size: 19px;
+	font-weight: 300;
+	color: #81899C;
+	margin-top: 0px;
+    display: inline-block;
+    }
+
+    .lead {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 0px;
+	line-height: 30px;
+    display: inline-block;
+    }
+    .names {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 0px;
+	line-height: 20px;
+    display: inline-block;
+    }
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    }
+    .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    a.pagelink:link,
+    a.pagelink:visited,
+    a.pagelink:active { color: #81899C; text-decoration: none; }
+    a.pagelink:hover { color: #006699; text-decoration: underline; }
+</style>
+
+
+
+<div class="superhero">
+    <div class="title">
+        <h1 class="name"><strong>A Low Cost Multi-Camera Array</strong><br>for Panoramic Light Field Video Capture</h1><br>
+        
+        <h2 class="names">Michael Broxton</h2>
+        <span class="email"><a href = "mailto: broxton@google.com" class="pagelink">broxton@google.com</a></span><br>
+        
+        <h2 class="names">Jay Busch</h2>
+        <span class="email"><a href = "mailto: jbusch@google.com" class="pagelink">jbusch@google.com</a></span><br>
+        
+        <h2 class="names">Jason Dourgarian</h2>
+        <span class="email"><a href = "mailto: jdourgarian@google.com" class="pagelink">jdourgarian@google.com</a></span><br>
+        
+        <h2 class="names">Matthew DuVall</h2>
+        <span class="email"><a href = "mailto: matthewduvall@google.com" class="pagelink">matthewduvall@google.com</a></span><br>
+
+        <h2 class="names">Daniel Erickson</h2>
+        <span class="email"><a href = "mailto: danerickson@google.com" class="pagelink">danerickson@google.com</a></span><br>
+
+        <h2 class="names">Dan Evangelakos</h2>
+        <span class="email"><a href = "mailto: devangelakos@google.com" class="pagelink">devangelakos@google.com</a></span><br>
+
+        <h2 class="names">John Flynn</h2>
+        <span class="email"><a href = "mailto: jflynn@google.com" class="pagelink">jflynn@google.com</a></span><br>
+
+        <h2 class="names">Ryan Overbeck</h2>
+        <span class="email"><a href = "mailto: rover@google.com" class="pagelink">rover@google.com</a></span><br>
+
+        <h2 class="names">Matt Whalen</h2>
+        <span class="email"><a href = "mailto: mswhalen@google.com" class="pagelink">mswhalen@google.com</a></span><br>
+
+        <h2 class="names">Paul Debevec</h2>
+        <span class="email"><a href = "mailto: debevec@google.com" class="pagelink">debevec@google.com</a></span><br>
+        
+        <h4>Google Inc.</h4>
+    </div>
+    
+    <div class="poster">
+        <a href="content/rig.png"><img src="thumbs/rig.png" class="img" style="width:492px;height:471px;"></a>
+    </div>
+</div>
+
+<div class="main">
+    <h2>Publication Links</h2>
+    Poster
+    <a href="content/poster.pdf">PDF</a><br>
+    Abstract
+    <a href="content/abstract.pdf">PDF</a><br>
+    Additional Material
+    <a href="content/additional_material1.png">PNG</a><br>
+</div>
+
+<div class="main">
+    <h2>Abstract</h2>
+    <p>The recent rise of consumer 6 degree-of-freedom (6-DOF) VR head-sets and cell-phone based AR has increased the need for rich 3D content. However, most current 6-DOF content uses synthetic 3D models and textures that are far from photorealistic, especially on low powered mobile devices. In contrast, light field video can capture real-life photorealism while maintaining full freedom of movement. However, existing light field video cameras are expensive and unwieldy [Milliron et al.2017; Wilburn et al.2001], while portable solutions have been applied only to static scene capture as in [Over-beck et al.2018] or have a small viewing baseline [Smith et al.2009; Wang et al. 2017].
+    </p>
+    <p>
+    Here we present a low-cost, portable multi-camera system for capturing panoramic light field video content. Our system can capture light fields at high resolution (>15 pixels per degree) with a wide field of view (>220°), a large viewing baseline (0.8 meters), at 30 frames per second. Combined with modern view interpolation algorithms [Flynn et al. 2019; Mildenhall et al. 2019; Penner and Zhang 2017; Zhou et al. 2018], our system can render objects placed as close as 33-cm to the surface of the array. The dome, mounts, triggering hardware and cameras are inexpensive (roughly $5k for parts) and easy to fabricate.
+    </p>
+</div>
+
+<div class="main">
+    <h2 class="section-title">Technical Video</h2>
+        <div class="video-container">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHQqJkz8p3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+    <br>
+
+    <p>
+</div>
+
+<div class="main">
+    <h2>Related work</h2> 
+    <a href="https://augmentedperception.github.io/deepview/">DeepView</a> View Synthesis with Learned Gradient Descent.
+    <p>
+    <a href="https://augmentedperception.github.io/welcome-to-lightfields/">Welcome to Light Fields</a> A system for Acquiring, Processing, and Rendering Panoramic Light Field Still Photos for Virtual Reality.
+    <br><br>
+</div>
+<br>
+
+<div class="footer">
+    <div class="footerG">
+        <a href="https://ai.google/"><img src="thumbs/google.png" class="logos"></a>
+    </div>
+    <div class="footerD">
+        <a href="https://vr.google.com/daydream/"><img src="thumbs/daydream.png" class="logos"></a>
+    </div>
+</div>
